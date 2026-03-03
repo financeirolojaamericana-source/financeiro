@@ -62,8 +62,8 @@ const Index = () => {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="/Mastercredit.apk"
-                  download="Mastercredit.apk"
+                  href="/MULTCRED.APK"
+                  download="MULTCRED.APK"
                   className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary text-primary-foreground font-bold text-lg px-8 py-4 shadow-lg hover:opacity-90 transition-opacity">
 
                   <Download className="w-5 h-5" />
@@ -168,8 +168,8 @@ const Index = () => {
               Não espere! Atualize o app MultCred e tenha a segurança que você merece para suas operações financeiras.
             </p>
             <a
-              href="/Mastercredit.apk"
-              download="Mastercredit.apk"
+              href="/MULTCRED.APK"
+              download="MULTCRED.APK"
               className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary text-primary-foreground font-bold text-lg px-8 py-4 shadow-lg hover:opacity-90 transition-opacity">
 
               <Download className="w-5 h-5" />
