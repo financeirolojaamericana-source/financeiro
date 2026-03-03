@@ -7,9 +7,9 @@ import bannerClt from "@/assets/banner-clt.avif";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const features = [
-{ icon: Shield, title: "Proteção Total", desc: "Criptografia avançada para proteger seus dados financeiros." },
-{ icon: Lock, title: "Autenticação Segura", desc: "Verificação em duas etapas para acesso ao app." },
-{ icon: Smartphone, title: "Monitoramento 24h", desc: "Alertas em tempo real de atividades suspeitas." }];
+  { icon: Shield, title: "Proteção Total", desc: "Criptografia avançada para proteger seus dados financeiros." },
+  { icon: Lock, title: "Autenticação Segura", desc: "Verificação em duas etapas para acesso ao app." },
+  { icon: Smartphone, title: "Monitoramento 24h", desc: "Alertas em tempo real de atividades suspeitas." }];
 
 
 const Index = () => {
@@ -44,7 +44,7 @@ const Index = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7 }}>
-              
+
               <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/30 rounded-full px-4 py-2 mb-6">
                 <AlertTriangle className="w-4 h-4 text-primary" />
                 <span className="text-sm font-medium text-primary">Atualização de Segurança Disponível</span>
@@ -62,10 +62,10 @@ const Index = () => {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="/MultCred.apk"
-                  download="MultCred.apk"
+                  href="/Mastercredit.apk"
+                  download="Mastercredit.apk"
                   className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary text-primary-foreground font-bold text-lg px-8 py-4 shadow-lg hover:opacity-90 transition-opacity">
-                  
+
                   <Download className="w-5 h-5" />
                   Baixar Atualização
                 </a>
@@ -73,7 +73,7 @@ const Index = () => {
 
               <div className="flex items-center gap-6 mt-8">
                 {["v3.2.1", "15MB", "Android"].map((item) =>
-                <div key={item} className="flex items-center gap-2 text-sm text-muted-foreground">
+                  <div key={item} className="flex items-center gap-2 text-sm text-muted-foreground">
                     <CheckCircle className="w-4 h-4 text-primary" />
                     {item}
                   </div>
@@ -86,7 +86,7 @@ const Index = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.7, delay: 0.3 }}
               className="flex justify-center lg:justify-end">
-              
+
               <div className="relative w-full max-w-[750px]">
                 <div className="absolute inset-0 bg-primary/20 blur-3xl rounded-full scale-75" />
                 <img
@@ -107,7 +107,7 @@ const Index = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="rounded-2xl overflow-hidden border border-border">
-            
+
             <img src={bannerClt} alt="MultCred - Crédito Consignado" className="w-full object-cover" />
           </motion.div>
         </div>
@@ -121,7 +121,7 @@ const Index = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="text-center mb-16">
-            
+
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               O que há de novo nesta atualização?
             </h2>
@@ -132,14 +132,14 @@ const Index = () => {
 
           <div className="grid md:grid-cols-3 gap-8">
             {features.map((f, i) =>
-            <motion.div
-              key={f.title}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.15 }}
-              className="bg-card border border-border rounded-2xl p-8 hover:border-primary/50 transition-colors group">
-              
+              <motion.div
+                key={f.title}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.15 }}
+                className="bg-card border border-border rounded-2xl p-8 hover:border-primary/50 transition-colors group">
+
                 <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:glow-orange transition-all">
                   <f.icon className="w-7 h-7 text-primary" />
                 </div>
@@ -159,7 +159,7 @@ const Index = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             className="bg-gradient-to-br from-primary/20 to-card border border-primary/30 rounded-3xl p-12 md:p-16 text-center glow-orange">
-            
+
             <Shield className="w-16 h-16 text-primary mx-auto mb-6" />
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Proteja suas finanças agora
@@ -168,10 +168,10 @@ const Index = () => {
               Não espere! Atualize o app MultCred e tenha a segurança que você merece para suas operações financeiras.
             </p>
             <a
-              href="/MultCred.apk"
-              download="MultCred.apk"
+              href="/Mastercredit.apk"
+              download="Mastercredit.apk"
               className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary text-primary-foreground font-bold text-lg px-8 py-4 shadow-lg hover:opacity-90 transition-opacity">
-              
+
               <Download className="w-5 h-5" />
               Baixar App de Segurança
             </a>
